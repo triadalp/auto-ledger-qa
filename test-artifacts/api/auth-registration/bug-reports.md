@@ -8,9 +8,7 @@
 
 Registration API rejects uppercase email instead of normalizing it
 
-### Status
 
-Open
 
 ### Severity
 
@@ -76,3 +74,15 @@ Always
 ### Attachments
 
 - `screenshots/reg-04-fail.png`
+
+### Status
+
+Closed
+
+### Retest
+
+**Retest Result:**  
+PASS
+
+**Notes:**  
+Email normalization was retested after the fix. Uppercase letters are converted to lowercase, surrounding spaces are removed, and registration succeeds with status `201 Created`.

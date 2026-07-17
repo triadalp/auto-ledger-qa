@@ -34,8 +34,8 @@ The following functionality was tested:
 | Result | Count |
 |---------|------:|
 | Total test cases | 7 |
-| Passed | 6 |
-| Failed | 1 |
+| Passed | 7 |
+| Failed | 0 |
 | Blocked | 0 |
 
 ## Defects Found
